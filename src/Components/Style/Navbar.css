@@ -1,0 +1,68 @@
+@keyframes slideInFromTopandEmerge {
+  0% {
+    transform: translateY(-80%);
+    filter: opacity(0%);
+  }
+
+  100% {
+    transform: translateY(0);
+    filter: opacity(100%);
+  }
+}
+/* font-family: 'Work Sans', sans-serif; */
+nav.Navcontainer {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  position: sticky;
+  background-color: #12747a7d;
+  animation: 1.2s ease-in-out 0s 1 slideInFromTopandEmerge;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav.Navcontainer a {
+  letter-spacing: 3px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  /* font: 20px Raleway; */
+  margin: 0px 10px;
+  padding: 10px 10px;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-family: "Work Sans", sans-serif;
+}
+
+nav.topBotomBordersIn a:before,
+nav.topBotomBordersIn a:after {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  height: 2px;
+  background: rgb(31, 27, 27);
+  content: "";
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+nav.topBotomBordersIn a:before {
+  top: 0px;
+  transform: translateY(-10px);
+}
+
+nav.topBotomBordersIn a:after {
+  bottom: 0px;
+  transform: translateY(10px);
+}
+
+nav.topBotomBordersIn a:hover:before,
+nav.topBotomBordersIn a:hover:after {
+  opacity: 1;
+  transform: translateY(0px);
+}

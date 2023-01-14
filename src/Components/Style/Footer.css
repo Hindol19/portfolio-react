@@ -1,0 +1,24 @@
+.footerContainer {
+  background-color: black;
+  color: white;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.footerCard {
+  width: 20%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.footerCard div {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.copyright {
+  background-color: black;
+  padding: 1%;
+  font-size: 1.2rem;
+  width: 80%;
+}

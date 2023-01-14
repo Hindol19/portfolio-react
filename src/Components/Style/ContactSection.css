@@ -1,0 +1,76 @@
+.contactContainer {
+  background-color: black;
+  padding-top: 3.5%;
+  /* margin-top: 3.5%; */
+  padding-bottom: 5.5%;
+  display: flex;
+  /* background-color: white; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* .aboutContainer h2 {
+      margin-top: 7%;
+      margin-bottom: 0;
+      font-size: 2.8rem;
+      left: 0;
+    } */
+.contactCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 35vw;
+  /* border: 2px solid red; */
+  width: 100%;
+  padding: 0% 2%;
+}
+.contactSubCard {
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+
+  /* border: 2px solid blue; */
+  font-family: "Space Grotesk", sans-serif;
+  height: 90%;
+  margin: 2%;
+  line-height: 4.5rem;
+  padding: 2%;
+  font-size: 2.5rem;
+  color: white;
+}
+.cleft1 {
+  width: 60%;
+  font-size: 5.5rem;
+  line-height: 150%;
+}
+.cright1 {
+  width: 40%;
+  /* background-color: rgb(57, 148, 197); */
+  background: url("https://images.unsplash.com/photo-1647366407352-2595ceb9348d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGFic3RyYWN0JTIwYmFjayUyMGdyb3VuZHxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60")
+    no-repeat center center/cover;
+  box-shadow: rgb(0 114 255 / 60%) -6px 10px 65px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cright1 button {
+  padding: 0%;
+  color: white;
+  background-color: #0f4b4e;
+}
+.cright1 input {
+  background-color: rgba(255, 255, 255, 0.821);
+}
+.cright1 input::placeholder {
+  color: black;
+}
+.formItem {
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  margin: 2%;
+  width: 90%;
+  padding: 2%;
+}
