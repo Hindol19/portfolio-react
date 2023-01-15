@@ -1,4 +1,5 @@
 import React from "react";
+import Sticky from "react-stickynode";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Components/Layouts/Navbar";
@@ -10,7 +11,9 @@ import Footer from "./Components/Layouts/Footer";
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Sticky>
+        <Navbar />
+      </Sticky>
       <Home />
       <About />
       <Projects />
