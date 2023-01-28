@@ -2,7 +2,7 @@
   background-color: black;
   padding-top: 3.5%;
   /* margin-top: 3.5%; */
-  padding-bottom: 5.5%;
+  padding-bottom: 2.5%;
   display: flex;
   /* background-color: white; */
   flex-direction: column;
@@ -39,6 +39,9 @@
 }
 .cleft1 {
   width: 60%;
+  height: 50% !important;
   font-size: 5.5rem !important;
   line-height: 150% !important;
+  display: flex;
+  justify-content: center;
 }

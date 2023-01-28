@@ -17,7 +17,7 @@ nav.Navcontainer {
   justify-content: center;
   z-index: 3;
   position: sticky;
-  background-color: #12747a7d;
+  background-color: #12757ac6;
   animation: 1.2s ease-in-out 0s 1 slideInFromTopandEmerge;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -27,10 +27,11 @@ nav.Navcontainer {
 
 nav.Navcontainer a {
   letter-spacing: 3px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 30px;
   text-decoration: none;
   /* font: 20px Raleway; */
-  margin: 0px 10px;
+  margin: 0px 20px;
   padding: 10px 10px;
   position: relative;
   z-index: 0;
@@ -45,7 +46,7 @@ nav.topBotomBordersIn a:after {
   left: 0px;
   width: 100%;
   height: 2px;
-  background: rgb(31, 27, 27);
+  background: rgb(255, 255, 255);
   content: "";
   opacity: 0;
   transition: all 0.3s;
