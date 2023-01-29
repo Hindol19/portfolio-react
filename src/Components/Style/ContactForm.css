@@ -36,7 +36,6 @@
 }
 .cright1 input:focus {
   outline: none;
-  
 }
 .formItem {
   /* font-weight: bold; */
@@ -46,4 +45,13 @@
   margin: 2%;
   width: 90%;
   padding: 1%;
+}
+a svg {
+  width: 220%;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: rgb(146, 146, 146);
 }
