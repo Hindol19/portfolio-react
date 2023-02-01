@@ -24,6 +24,8 @@ function ContactForm() {
           console.log(error.text);
         }
       );
+
+    e.name.form_name.value = "";
   };
   return (
     <div className="cright1 contactSubCard">

@@ -1,3 +1,14 @@
+[data-aos] {
+  pointer-events: none;
+}
+.aos-animate {
+  pointer-events: auto;
+}
+.aos-init[data-aos][data-aos].aos-animate {
+  transform: unset;
+}
+/* Above code fixes the overlapping problem */
+
 .projectContainer {
   background: url("../../Images/Project2.png") no-repeat center center/cover;
   /* background-color: black; */
